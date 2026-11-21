@@ -53,16 +53,19 @@
             overflow-wrap: anywhere;
             max-height: 2.6em;
             overflow: auto;
+            text-align: left;
         }
 
         #problem-answer {
             color: #f0f1f3;
             font-size: clamp(15px, 1.8vw, 27px);
             line-height: 1.25;
+            font-weight: bold;
             white-space: pre-wrap;
             overflow-wrap: anywhere;
             max-height: 2.5em;
             overflow: auto;
+            text-align: right;
         }
 
         /* 得点管理コントロール */
@@ -267,7 +270,7 @@
         #settings-button {
             position: fixed;
             right: 10px;
-            top: 10px;
+            top: 25vh;
             z-index: 10;
             background: #292d35;
             color: #e5e7eb;
