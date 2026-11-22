@@ -65,7 +65,7 @@
             overflow-wrap: anywhere;
             max-height: 2.5em;
             overflow: auto;
-            text-align: right;
+            text-align: center;
         }
 
         /* 得点管理コントロール */
